@@ -1,0 +1,409 @@
+html, body {
+    font-size: 23px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #101010;
+}
+
+/* Navbar */
+
+.navbar {
+    background: orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    
+}
+.navlist1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 13px;
+    text-transform: uppercase;
+    margin-left: 1.5em;
+    position: relative;
+    bottom: 50px;
+    font-family: cursive;
+}
+.navlist1 a:hover {
+    color: crimson;
+}
+.navlist1 img {
+    height: 95px;
+    width: 80px;
+    position: relative;
+    top: 26px;
+}
+.navbar ul li {
+    list-style-type: none;
+    display: inline;
+}
+.navlist1 {
+    float: left;
+}
+.navlist2 {
+    float: right;
+    
+}
+.navimage {
+    position: relative;
+    bottom: 40em;
+    object-fit: cover;
+    
+}
+.soulsimage {
+    position: fixed;
+    top: 18%;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px orange solid;
+    z-index: -99;
+    margin-bottom: 50em;
+}
+
+/* Header */
+
+.header {
+    background: #101010;
+    padding-bottom: 1.5em;
+    margin-top: 25em;
+    z-index: 5;
+    position: relative;
+}
+.header .center{
+    text-align: center;
+    font-size: .8rem;
+}
+.header .gheader {
+    font-size: 1.2rem;
+    text-align: center;
+}
+.header h1 {
+    font-size: 2rem;
+    color: darkgoldenrod;
+    text-transform: uppercase;
+    text-align: center;
+}
+.imagelink {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 1.5em;
+}
+.souls {
+    text-decoration: none;
+    color: darkgoldenrod;
+    text-align: center;
+}
+.darksoulsimage {
+    width: 470px;
+    height: 350px;
+    max-width: 100%;
+    border: 7px darkgoldenrod double;
+    object-fit: cover;
+}
+
+/* Main */
+
+.selector {
+    position: relative;
+    z-index: 5;
+    background: #101010;
+    padding-top: .1em;;
+}
+.selections h4 {
+    font-size: 1.5rem;
+}
+.collectionimages {
+    width: 480px;
+    height: 300px;
+}
+.collectionlinks {
+    text-decoration: none;
+    color: darkgoldenrod;
+    font-size: 1.2rem;
+}
+.infoswitch {
+    margin-bottom: 1em;
+}
+.infoswitch h6 {
+    font-size: .5rem;
+}
+.collector {
+    background: #080808;
+    width: 480px;
+}
+.original {
+    background: #080808;
+    width: 480px;;
+}
+.soulstrilogy {
+    background: #080808;
+    width: 480px;
+}
+.trilogycollector {
+    background: #080808;
+    width: 480px;
+}
+.newslink {
+    text-align: center;
+    padding-bottom: 2em;
+}
+.newsbutton {
+    text-decoration: none;
+    color: white;
+    background: darkgoldenrod;
+    padding: .9em;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: .6rem;
+    font-weight: 300;
+    border: 1px darkgoldenrod solid;
+}
+.newsbutton:hover {
+    background: #101010;
+    color: darkgoldenrod;
+}
+
+/* News */
+
+.news {
+    position: relative;
+    background: #141414;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+}
+.newssection {
+    width: 100%;
+}
+.newssection h3,
+.newssection p,
+.newssection > div {
+    margin-left: 1.5em;
+}
+
+.email {
+    width: 250px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px darkgoldenrod solid;
+    box-sizing: border-box;
+}
+.emailform  {
+    
+}
+.submit {
+    color: white;
+    background: darkgoldenrod;
+    text-transform: uppercase;
+    padding: .55em;
+    opacity: 0.9;
+    border: 2px darkgoldenrod solid;
+    border-radius: 4px;
+    
+}
+.submit:hover {
+    background: black;;
+}
+
+.socialimage:hover {
+    background: black;
+}
+
+/* Store */
+
+.games {
+    z-index: 5;
+    position: relative;
+    background: #101010;
+    padding-top: 1em;
+}
+.games h2 {
+    margin-left: 1em;
+}
+.gamelist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gamelist a,
+.gamelist li {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    text-transform: uppercase;
+    border: 1px #080808 solid;
+    text-align: center;
+    line-height: 1.2;
+}
+.vinylcollection li, .dsremaster li,
+.dsse li, .dsde li, .dssp li {
+    background: #080808;
+    margin-left: .5em;
+    opacity: 0.9;
+}
+.vinylcollection a,
+.vinylcollection li {
+    font-size: .7rem;
+    height: 20rem;
+}
+.dsremaster li {
+    height: 19.99rem;
+}
+.shopbutton {
+    text-align: center;
+    padding-bottom: 2em;
+}
+.shopbutton a {
+    text-decoration: none;
+    color: white;
+    background: darkgoldenrod;
+    padding: .5em;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 100;
+}
+.shopbutton a:hover {
+    color: darkgoldenrod;
+    background: #101010;
+    border: 1px darkgoldenrod solid;
+}
+
+/* Popular Games */
+
+.popular {
+    position: relative;
+    background: royalblue;
+    width: 100%;
+    height: 100%;
+    padding-top: 1em;
+    padding-bottom: 5em;
+}
+.contain h2 {
+    margin-left: 1em;
+}
+.gameimage {
+    width: 450px;
+    height: 300px;
+}
+.populargames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.darkpictures {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.overlay h5 {
+    color: lightsalmon;
+}
+.littlenightmares,
+.darkpictures,
+.newchampions {
+    background: #101010;
+    opacity: 0.9;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: block;
+}
+.overlay, .gamebutton {
+    text-align: center;
+}
+.gamelink {
+    text-decoration: none;
+    color: white;
+    background: darkgoldenrod;
+    padding: .4em;
+    border-radius: 4px;
+}
+.gamelink:hover {
+    background: royalblue;
+    border: 1px darkgoldenrod solid;
+    color: darkgoldenrod;
+}
+.bottomsection a,
+.bottomsection li {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.bottomsection a:hover {
+    color: darkgoldenrod;
+}
+.bottomlist a,
+.servicelist a {
+    margin-left: .7em;
+}
+.bottomsection, 
+.bottomsection li {
+    width: 100%;
+    margin-top: 2em;
+}
+.bottomsection li {
+    display: inline;
+}
+.anotherlist h5 {
+    font-size: .65rem;
+}
+.anotherlist a {
+    margin-left: .7em;
+}
+.servicelist h5 {
+    position: relative;
+}
+.anotherlist h5,
+.servicelist h5 {
+    text-transform: uppercase;
+}
+.servicelist {
+    padding-bottom: 1em;
+}
+
+/* Footer */
+
+.footer {
+    position: relative;
+    width: 100%;
+    margin-top: 1em;
+}
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: darkgoldenrod;
+}
+.copyright {
+    font-size: .8rem;
+}
+.footerlist {
+    text-align: center;
+}
+.footerlist li,
+.footerlist a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: .7rem;
+    display: inline;
+}
+.footerlist a:hover {
+    text-decoration: underline;
+}
+.footerlink {
+    margin-left: 1.8em;
+    font-weight: 100;
+}
+
+
+
